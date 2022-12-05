@@ -19,6 +19,7 @@ def format_elf_group_bags(bags):
 
     return formatted_bags
 
+
 def get_intersection(bags):
     return list(set.intersection(*map(set, bags)))[0]
 
